@@ -1,0 +1,118 @@
+/* estilos.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #00008B;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-bottom: 6px solid rgb(226, 226, 0);
+}
+
+
+#container1{
+    width: 30%;
+    float: left;
+    margin-top: 100px;
+    margin-left: 160px;
+}
+
+#container2{
+    width: 30%;
+    float: left;
+    margin-top: 100px;
+}
+
+#container3{
+    width: 30%;
+    float: left;
+    margin-top: 100px;
+}
+
+#container4{
+    width: 30%;
+    float: left;
+    margin-top: 100px;
+    margin-left: 160px;
+    
+}
+
+#container5{
+    width: 30%;
+    float: left;
+    margin-top: 100px;
+}
+
+#container6{
+    width: 30%;
+    float: left;
+    margin-top: 100px;
+}
+
+#container7{
+    text-align: center;
+}
+
+input{
+    width: 200px;
+    height: 30px;
+}
+
+nav {
+    background-color: #006eff; /* Cambia este color según tus preferencias */
+    color: rgb(87, 86, 41);
+    text-align: center;
+    padding: 20px 20px; /* Ajusta el espacio interno (arriba y abajo) de la barra */
+}
+
+h1, h2 {
+    margin: 0; /* Elimina el margen predeterminado de los encabezados */
+}
+
+.content {
+    padding: 20px; /* Ajusta el espacio interno del contenido principal */
+}
+
+.container {
+    display: flex;
+}
+
+.column {
+    width: 48%;
+}
+
+
+section.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section.column {
+    flex: 0 1 48%;
+}
+
+
+
+p {
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #00008B;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
